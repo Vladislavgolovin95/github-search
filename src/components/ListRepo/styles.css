@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: flex-start;
+}
+
+.sort-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+
+.loading-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width: 767px) {
+  .list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+}

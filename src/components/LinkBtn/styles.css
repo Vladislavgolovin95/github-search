@@ -1,0 +1,55 @@
+.link {
+  display: inline-flex;;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #D44333;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 0.9;
+}
+
+.link_card-repo {
+  width: 118px;
+  height: 32px;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.link_navigate {
+  display: block;
+  position: relative;
+  margin: 24px 0 48px 0;
+  padding-left: 24px;
+  font-size: 14px;
+  color: #3A3A3A;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.link_navigate:hover {
+  color: #1E89F0;
+}
+
+.link_navigate::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0; 
+  transform: translateY(-50%);
+  width: 16px; 
+  height: 12px; 
+  background: url('../../assets/svg/arrow-back.svg') no-repeat center center; 
+  background-size: contain;
+}

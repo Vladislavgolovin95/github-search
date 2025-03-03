@@ -1,0 +1,14 @@
+.repo-count {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #101828;
+}
+
+@media(max-width: 767px) {
+  .repo-count {
+    width: 300px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+}

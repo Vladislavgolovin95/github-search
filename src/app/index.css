@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  padding-top: 72px;
+  background-color: #3A3A3A0A;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none; 
+  cursor: pointer; 
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+@media(max-width: 767px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
+  }
+}
